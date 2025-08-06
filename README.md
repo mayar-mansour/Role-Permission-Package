@@ -62,6 +62,8 @@ This will create the following tables:
 
 ---
 
+
+
 ## 4. Configuration
 
 ### 4.1 Add Trait to Your User Model
@@ -184,6 +186,8 @@ Route::get('/edit', fn() => 'Edit Page')->middleware('permission:edit-posts');
 ## 7. Seeder Example
 
 Create `database/seeders/RolePermissionSeeder.php`:
+
+php artisan db:seed --class=RolePermissionSeeder
 
 ```php
 namespace Database\Seeders;
