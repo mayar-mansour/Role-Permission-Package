@@ -1,7 +1,3 @@
-Here’s a **cleaned and well-structured version** of your README file with all steps in a **continuous flow**, improved formatting, and clear sectioning for GitHub:
-
----
-
 # Laravel Role & Permission by Mayar
 
 A **lightweight, flexible, and fully database-driven** Role & Permission system for Laravel.
