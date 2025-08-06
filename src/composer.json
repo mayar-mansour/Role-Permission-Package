@@ -1,0 +1,16 @@
+{
+    "name": "mayar/role-permission",
+    "description": "Custom Role and Permission package for Laravel",
+    "autoload": {
+        "psr-4": {
+            "Mayar\\RolePermission\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mayar\\RolePermission\\Providers\\RolePermissionServiceProvider"
+            ]
+        }
+    }
+}
