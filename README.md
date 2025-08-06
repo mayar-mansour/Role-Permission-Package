@@ -115,7 +115,7 @@ model_has_roles:       id | role_id | model_type | model_id | timestamps
 model_has_permissions: id | permission_id | model_type | model_id | timestamps
 role_has_permissions:  id | role_id | permission_id | timestamps
 ```
-
+![alt text](db_digram.png)
 ---
 
 ## 6. Usage Guide
